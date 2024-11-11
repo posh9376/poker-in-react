@@ -1,0 +1,25 @@
+nav a{
+    color: white;
+    text-decoration: none;
+}
+ a:hover{
+    text-decoration: underline;
+}
+.navbar{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#about{
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(59, 102, 59);
+}
+#about h2{
+    font-size: 40px;
+    margin-top: 2px;
+    text-shadow: 0 0 5px red;
+}
