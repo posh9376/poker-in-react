@@ -7,6 +7,7 @@ import About from './About'
 import GamePage from './gamePage'
 
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Home />
@@ -14,5 +15,6 @@ createRoot(document.getElementById('root')).render(
     <GamePage />
   </StrictMode>,
 )
+
 
 
