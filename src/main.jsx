@@ -10,6 +10,7 @@ import Step1 from './step1'
 import Step2 from './step2'
 import Step3 from './step3'
 import Step4 from './step4'
+import Step5 from './step5'
 
 
 createRoot(document.getElementById('root')).render(
@@ -21,6 +22,7 @@ createRoot(document.getElementById('root')).render(
     <Step2/>
     <Step3 />
     <Step4/>
+    <Step5/>
     <GamePage />
   </StrictMode>,
 )
