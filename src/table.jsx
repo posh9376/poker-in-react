@@ -2,6 +2,7 @@ import PlayersDeck from "./playersdeck";
 import CommunityCards from "./communityCards";
 import Chips from "./chips";
 import CompDeck from "./CompDeck";
+import Pot from "./pot";
 
 function Table () {
 
@@ -22,6 +23,7 @@ function Table () {
             <CommunityCards/>
             <Chips top="83%" left="58%" amount='300' pleft={'37%'} ptop='14%'/>
             <Chips top="5%" left="37%" amount='400' pleft={'65%'} ptop='83%'/>
+            <Pot/>
             
         </div>;
   

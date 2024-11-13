@@ -1,5 +1,5 @@
 import Table from "./table";
-import woodenFloor from "../assets/wood-floor-background.jpg";
+import woodenFloor from "./assets/wood-floor-background.jpg";
 import PlayerComp from "./playComp";
 import Me from "./me";
 import "./style.css"

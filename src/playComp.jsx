@@ -1,4 +1,4 @@
-import img2 from "../assets/Velvet And Low-Backed Chair2.jpeg"
+import img2 from "./assets/Velvet And Low-Backed Chair2.jpeg"
 
 
 function PlayerComp() {

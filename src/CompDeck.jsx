@@ -1,8 +1,8 @@
 import Cards from "./cards";
-import img1 from "../assets/cards/b.svg"
-import img2 from "../assets/cards/5s.svg"
-import img3 from "../assets/cards/6s.svg"
-import { useState } from "react"
+import img1 from "./assets/cards/b.svg"
+import img2 from "./assets/cards/5s.svg"
+import img3 from "./assets/cards/6s.svg"
+import { useState,  } from "react"
 
 
 
@@ -13,12 +13,13 @@ function CompDeck() {
     setTimeout(() => {
         setN(img1)
         setN2(img1)
-    }, 3000);
+    }, 4000);
+
 
     setTimeout(() => {
         setN(img2)
         setN2(img3)
-    }, 14000);
+    }, 16000);
 
 
     return <div id="comp-deck" >

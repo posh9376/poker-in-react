@@ -1,9 +1,9 @@
 import Cards from "./cards"
-import img1 from "../assets/cards/8c.svg"
-import img2 from "../assets/cards/9c.svg"
-import img3 from "../assets/cards/10c.svg"
-import img4 from "../assets/cards/7c.svg"
-import img5 from "../assets/cards/3c.svg"
+import img1 from "./assets/cards/8c.svg"
+import img2 from "./assets/cards/9c.svg"
+import img3 from "./assets/cards/10c.svg"
+import img4 from "./assets/cards/7c.svg"
+import img5 from "./assets/cards/3c.svg"
 import { useState } from "react"
 
 function CommunityCards() {
@@ -16,14 +16,14 @@ function CommunityCards() {
         setN(img1)
         setN2(img2)
         setN3(img3)
-    }, 5000);
+    }, 6000);
 
     setTimeout(() => {
         setC4(img4)
-    }, 9000);
+    }, 10000);
     setTimeout(() => {
         setC5(img5)
-    }, 13000);
+    }, 14000);
 
     return (
         <div id="community-cards">
