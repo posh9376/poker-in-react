@@ -6,9 +6,8 @@ function GamePage() {
     return (
         <div id='gameplay' style={{display: 'flex', height
             : '100vh',
-            backgroundColor: 'white'
         }} >
-            <GameSide />
+            <GameSide/>
             <Game/>
         </div>
     )
