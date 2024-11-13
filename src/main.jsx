@@ -6,7 +6,7 @@ import Home from './home'
 import About from './About'
 import GamePage from './gamePage'
 import Navbar from './navbar'
-
+import Step1 from './step1'
 
 
 createRoot(document.getElementById('root')).render(
@@ -14,6 +14,7 @@ createRoot(document.getElementById('root')).render(
     <Navbar />
     <Home />
     <About />
+    <Step1 />
     <GamePage />
   </StrictMode>,
 )
