@@ -9,6 +9,7 @@ import { useState,  } from "react"
 function CompDeck() {
     const [n1, setN] = useState('')
     const [n2, setN2] = useState('')
+    //const [style, setStyle] = useState('')
 
     setTimeout(() => {
         setN(img1)
@@ -20,6 +21,11 @@ function CompDeck() {
         setN(img2)
         setN2(img3)
     }, 16000);
+
+    setTimeout(() => {
+        setN(img1)
+        setN2(img1)
+    }, 20000);
 
 
     return <div id="comp-deck" >
