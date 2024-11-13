@@ -1,10 +1,10 @@
 import PlayersDeck from "./playersdeck";
-import CommunityCards from "./communityCards";
+import Step5CC from "./step5CC";
 import Chips from "./chips";
-import CompDeck from "./CompDeck";
+import Step5CompDeck from "./step5compDeck";
 import Pot from "./pot";
 
-function Table () {
+function Step5Table () {
 
         
         return <div style={{
@@ -19,13 +19,14 @@ function Table () {
             left: '8%'
         }}>
             <PlayersDeck/>
-            <CompDeck />
-            <CommunityCards/>
+            <Step5CompDeck />
+            <Step5CC/>
             <Chips top="83%" left="58%" amount='300' pleft={'37%'} ptop='14%'/>
-            <Chips top="5%" left="37%" amount='400' pleft={'65%'} ptop='83%'/>            <Pot/>            
+            <Chips top="5%" left="37%" amount='400' pleft={'65%'} ptop='83%'/>            
+            <Pot/>            
         </div>;
   
     
 }
 
-export default Table
+export default Step5Table
