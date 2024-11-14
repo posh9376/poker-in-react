@@ -36,19 +36,22 @@
 
 }
 #home h1{ 
-    animation: light 5s infinite;
+    animation: light 5s infinite ease-in-out;
 
 }
 
 @keyframes light {
     0% {
         text-shadow: 0 0  5px red;
+        opacity: 0.2;
     }
     50% {
-        text-shadow: 0 0 15px red;
+        text-shadow: 0 0 20px red;
+        opacity: 1;
     }
     100% {
         text-shadow: 0 0  5px red;
+        opacity: 0.2;
     }
 }
 

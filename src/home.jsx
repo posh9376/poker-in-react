@@ -10,7 +10,8 @@ function Home() {
                 fontWeight: 'bold',
                 margin: '0px',
                 padding: '0px',
-                letterSpacing: '10px'
+                letterSpacing: '10px',
+                opacity: '0.2'
             }}  >POKER</h1>
         </div>
     )
