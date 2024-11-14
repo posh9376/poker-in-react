@@ -15,11 +15,11 @@ setTimeout(() => {
     setN(img1)
     setN2(img2)
     setN3(img3)
-}, 3000);
+}, 6000);
 
 setTimeout(() => {
     setN4(img4)
-}, 5000);
+}, 8000);
 
    
 

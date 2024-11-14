@@ -17,11 +17,11 @@ function Step4CC() {
         setN2(img2)
         setN3(img3)
         setC4(img4)
-    }, 3000);
+    }, 5800);
 
     setTimeout(() => {
         setC5(img5)
-    }, 5000);
+    }, 6500);
 
     return (
         <div id="community-cards">

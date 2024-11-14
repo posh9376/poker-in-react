@@ -8,9 +8,9 @@ function Home() {
                 textAlign: 'center',
                 fontSize: '100px',
                 fontWeight: 'bold',
-                marginTop: '50px',
+                margin: '0px',
                 padding: '0px',
-                textShadow:'0 0 10px red, 0 0 20px red',
+                letterSpacing: '10px'
             }}  >POKER</h1>
         </div>
     )

@@ -1,5 +1,5 @@
 #root{
-    background-color: black;
+    background-color: rgba(207, 207, 16, 0.877);
     padding: 0px;
     margin: 0px;
 }
@@ -7,15 +7,23 @@
     margin: 0px;
     padding: 0px;
 }
-nav a{
+.active{
+    font-size: 20px;
     color: white;
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 0.5s ease-in-out;
+    
 }
- a:hover{
-    text-decoration: underline;
+.active:hover{
+    box-shadow: 0 0 10px yellow;
+    background-color: rgb(194, 194, 15);
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
 }
 .navbar{
-    height: 40px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -27,16 +35,48 @@ nav a{
     margin: 0px;
 
 }
+#home h1{ 
+    animation: light 5s infinite;
+
+}
+
+@keyframes light {
+    0% {
+        text-shadow: 0 0  5px red;
+    }
+    50% {
+        text-shadow: 0 0 15px red;
+    }
+    100% {
+        text-shadow: 0 0  5px red;
+    }
+}
 
 #about{
     height: 100vh;
     text-align: center;
-    background-color: rgb(59, 102, 59);
+    background-color: rgb(238, 236, 236);
 }
 #about h2{
     font-size: 40px;
+    margin-top: 0px;
+    padding-top: 20px;
+    color: black;
+    text-shadow: 0 0 5px yellow;
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#about p{
+    font-size: 20px;
     margin-top: 2px;
-    text-shadow: 0 0 5px red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    
+}
+#about span{
+    color: red;
+    font-weight: 600;
 }
 
 .comp img {
@@ -159,9 +199,27 @@ nav a{
     left: 72%;
 }
 
-#step1-explanation{
+
+.step{
+    background-color: rgb(238, 236, 236);
+    height: 100vh;
     text-align: center;
+    
 }
-#step2-explanation{
-    text-align: center;
+
+.step h2{
+    padding-top: 5px;
+    color: black;
+    text-shadow: 0 0 5px yellow;
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.step p{
+    font-size: 20px;
+}
+
+.step span{
+    font-weight: 600;
 }
